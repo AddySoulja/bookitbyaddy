@@ -1,0 +1,67 @@
+
+.coach_container {
+    max-width: 430px;
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    font-size: 18px;
+}
+#input {
+    height: 20px;
+}
+.seat {
+    width: 50px;
+    height: 50px;
+    background-color: bisque;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error {
+    padding: 8px;
+}
+
+.legend {
+    position: absolute;
+    width: 160px;
+    top: 50px;
+    left: 480px;
+    border: 1px solid black;
+    border-radius: 14px;
+    padding: 10px;
+}
+
+h3 {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+.legend_span {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.booked, .last_booked, .available {
+    height: 20px;
+    width: 20px;
+}
+.booked {
+    background-color: red;
+}
+
+.last_booked {
+    background-color: yellow;
+}
+
+.available {
+    background-color: green;
+}
